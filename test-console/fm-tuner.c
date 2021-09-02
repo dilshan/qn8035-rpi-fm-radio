@@ -268,19 +268,15 @@ VOID checkScanComplete()
         // If scan completes, get the new frequency from the QN8035 tuner.
         newFreq = GET_REG(REG_CH) | ((GET_REG(REG_CH_STEP) & 0x03) << 8); 
         freqFix = 0;
-
-        printf("new = %lf current = %lf\n", WORD_TO_FREQ(newFreq), WORD_TO_FREQ(currentFreq));
-
+	    
         // Fix: In some cases we notice receiver jump to 85MHz/111MHz if scanner goes beyond 98.25MHz or 98.4MHz.
         if((newFreq < FREQ_TO_WORD(LOW_FREQ)) && (currentFreq > FREQ_TO_WORD(LOW_FREQ)) && (currentFreq < FREQ_TO_WORD(98.3)))
         {
-            printf("CCC\n");
             newFreq = FREQ_TO_WORD(98.4);
             freqFix = 1;
         }
         else if((newFreq > FREQ_TO_WORD(HIGH_FREQ)) && (currentFreq > FREQ_TO_WORD(98.3)) && (currentFreq < FREQ_TO_WORD(HIGH_FREQ)))
         {
-            printf("DDD\n");
             newFreq = FREQ_TO_WORD(98.2);
             freqFix = 1;
         }
