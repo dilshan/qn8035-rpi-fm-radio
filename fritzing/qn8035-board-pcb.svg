@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+
+<svg
+   version="1.2"
+   x="0in"
+   y="0in"
+   width="0.7in"
+   height="0.7in"
+   viewBox="0 0 50.4 50.4"
+   id="svg165"
+   sodipodi:docname="qn8035-board-pcb.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs169" />
+  <sodipodi:namedview
+     id="namedview167"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="in"
+     showgrid="false"
+     inkscape:zoom="6.279762"
+     inkscape:cx="37.4218"
+     inkscape:cy="38.29763"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg165" />
+  <g
+     partID="57700"
+     id="g9">
+    <g
+       stroke-width="0"
+       id="copper0">
+      <circle
+         fill="none"
+         cx="5.4"
+         connectorname="ST"
+         stroke="#F7BD13"
+         stroke-width="1.224"
+         cy="7.2"
+         r="2.052"
+         id="connector8pad" />
+      <circle
+         fill="none"
+         cx="5.4"
+         connectorname="ZOUT"
+         stroke="#F7BD13"
+         stroke-width="1.224"
+         cy="14.4"
+         r="2.052"
+         id="connector9pad" />
+      <circle
+         fill="none"
+         cx="5.4"
+         connectorname="YOUT"
+         stroke="#F7BD13"
+         stroke-width="1.224"
+         cy="21.6"
+         r="2.052"
+         id="connector10pad" />
+      <circle
+         fill="none"
+         cx="5.4"
+         connectorname="XOUT"
+         stroke="#F7BD13"
+         stroke-width="1.224"
+         cy="28.8"
+         r="2.052"
+         id="connector11pad" />
+      <circle
+         fill="none"
+         cx="5.4"
+         connectorname="GND"
+         stroke="#F7BD13"
+         stroke-width="1.224"
+         cy="36"
+         r="2.052"
+         id="connector12pad" />
+      <circle
+         fill="none"
+         cx="5.4"
+         connectorname="VCC"
+         stroke="#F7BD13"
+         stroke-width="1.224"
+         cy="43.2"
+         r="2.052"
+         id="connector13pad" />
+    </g>
+  </g>
+  <g
+     partID="57702"
+     id="g26">
+    <g
+       stroke-width="0"
+       id="copper1">
+      <g
+         stroke-width="0"
+         id="g23">
+        <circle
+           fill="none"
+           cx="5.4"
+           connectorname="ST"
+           stroke="#F7BD13"
+           stroke-width="1.224"
+           cy="7.2"
+           r="2.052"
+           id="circle11" />
+        <circle
+           fill="none"
+           cx="5.4"
+           connectorname="ZOUT"
+           stroke="#F7BD13"
+           stroke-width="1.224"
+           cy="14.4"
+           r="2.052"
+           id="circle13" />
+        <circle
+           fill="none"
+           cx="5.4"
+           connectorname="YOUT"
+           stroke="#F7BD13"
+           stroke-width="1.224"
+           cy="21.6"
+           r="2.052"
+           id="circle15" />
+        <circle
+           fill="none"
+           cx="5.4"
+           connectorname="XOUT"
+           stroke="#F7BD13"
+           stroke-width="1.224"
+           cy="28.8"
+           r="2.052"
+           id="circle17" />
+        <circle
+           fill="none"
+           cx="5.4"
+           connectorname="GND"
+           stroke="#F7BD13"
+           stroke-width="1.224"
+           cy="36"
+           r="2.052"
+           id="circle19" />
+        <circle
+           fill="none"
+           cx="5.4"
+           connectorname="VCC"
+           stroke="#F7BD13"
+           stroke-width="1.224"
+           cy="43.2"
+           r="2.052"
+           id="circle21" />
+      </g>
+    </g>
+  </g>
+</svg>
