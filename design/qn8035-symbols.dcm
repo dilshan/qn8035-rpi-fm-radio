@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QN8035
+D Single-Chip Low-Power FM Receiver for Portable Devices
+K FM,RX,Radio,
+F https://datasheetspdf.com/pdf-down/Q/N/8/QN8035_Quintic.pdf
+$ENDCMP
+#
+#End Doc Library
