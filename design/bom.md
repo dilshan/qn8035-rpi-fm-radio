@@ -22,3 +22,5 @@
 | J3         | 3-Pin, 2.54mm Pin Header                     | 1        |
 | AE1        | 1-Pin, 2.54mm Pin Header                     | 1        |
 |            | MSOP10 (0.5mm) to DIP10 converter PCB        | 1        |
+
+Except for *U1*, all the components are standard through-hole type components.
