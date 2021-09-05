@@ -14,7 +14,7 @@ The tuner application provided in this release supports the following features:
 
  - Manual and automatic station scanning. 
  - Decode RDS PS (program service) data. 
- - Volume control 
+ - Volume control.
  - Display RSSI and SNR readings receive from the tuner.
 
 The control application of this receiver develops using *GCC* and *[WiringPi](http://wiringpi.com/)* library. 
