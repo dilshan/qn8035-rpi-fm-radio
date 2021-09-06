@@ -4,6 +4,8 @@
 
 This repository contains a *[Raspberry Pi](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)* base QN8035 receiver to receive FM stereo broadcasts from 88MHz to 108MHz.
 
+[![Video preview](https://github.com/dilshan/qn8035-rpi-fm-radio/blob/main/resources/qn8035-video-preview.jpg)](https://www.youtube.com/watch?v=qJ5dKJD2EvY)
+
 The hardware part of this receiver consists of a QN8035 tuner and a 32.768kHz oscillator circuit. These circuits are designed to work with a 3.3V power supply.
 
 The prototype version of this tuner designs with a single-sided PCB. All the schematics and *KiCAD* PCB design files are available in this repository. The Gerber files of this PCB are available to download at the release section of this repository.
