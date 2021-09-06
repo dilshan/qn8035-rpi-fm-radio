@@ -8,6 +8,8 @@ The hardware part of this receiver consists of a QN8035 tuner and a 32.768kHz os
 
 The prototype version of this tuner designs with a single-sided PCB. All the schematics and *KiCAD* PCB design files are available in this repository. The Gerber files of this PCB are available to download at the release section of this repository.
 
+![QN8035 and Raspberry Pi3 connection diagram](https://raw.githubusercontent.com/dilshan/qn8035-rpi-fm-radio/main/resources/qn8035-rpi3-connection.jpg)
+
 The QN8035 uses the I2C bus to communicate with the host system. The tuner application develops with this system utilizes I2C channel 1 (*Raspberry Pi* header Pin 3 and 5) to communicate with the QN8035. The control software presents in this repository is designed to work with the *Raspberry Pi* operating system and is set to run on May 7th, 2021 (*Buster*), or the latest releases.
 
 The tuner application provided in this release supports the following features:
